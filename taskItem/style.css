@@ -1,0 +1,34 @@
+@import '../ProjectItem/style.css';
+
+.task__list {
+    list-style: none;
+}
+
+.task__list-item {
+    font-size: 14px;
+    color: var(--font-color-disabled);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid var(--border-color-active);
+    padding: 0 16px  8px;
+    margin: 5px 0;
+}
+.task__list-item:hover .item-menu{
+    display: block;
+}
+.item-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    margin-left: 16px;
+    padding: 0 8px;
+    border-radius: 4px;
+    color: var(--font-color-secondary) ;
+}
+
+.bg-bronze {
+    background-color: var(--border-color-bronze);
+}
