@@ -37,6 +37,7 @@ html, body {
     --font-color-primary: #1C1C1C;
     --font-color-secondary: #FFFFFF;
     --font-color-disabled: #8E8E8E;
+
   }
 
 .wrapper {
@@ -54,6 +55,7 @@ html, body {
     height: 100%;
     margin: 0 auto;
     padding: 0 10px;
+    
 }
 
 .header__inner {
