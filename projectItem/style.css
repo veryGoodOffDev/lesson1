@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-.item-title, .item-number {
+.item-card__title, .item-number {
     color: var(--font-color-primary);
 }
 
@@ -27,7 +27,7 @@
     margin-right: 16px;
 }
 
-.item-body {
+.item-card__body {
     display: flex;
     justify-content: space-between;
     margin-top: 19px;

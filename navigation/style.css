@@ -2,11 +2,6 @@
 html {
     box-sizing: border-box;
 }
-
-/* * {
-    outline: 1px solid red;
-} */
-
 *, *::after, *::before {
     box-sizing: inherit;
     margin: 0;
@@ -14,7 +9,6 @@ html {
 }
 
 html, body {
-    /* height: 100%; */
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
@@ -98,7 +92,7 @@ html, body {
     transition: .2s ease;
 }
 
-.user-button {
+.user__button {
     padding: 10px 16px;
     background-color: transparent;
     border: none;
@@ -109,19 +103,19 @@ html, body {
     border: 1px solid transparent
 }
 
-.user-button:hover {
+.user__button:hover {
     border: 1px solid var(--font-color-secondary);
     cursor: pointer;
 }
 
-.user-img {
+.user__img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
 }
 
 .arrow.down {
-background-image: url(img/arrow.svg);
+background-image: url(../src/arrow.svg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;

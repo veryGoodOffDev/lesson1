@@ -1,4 +1,5 @@
 @import '../ProjectItem/style.css';
+@import '../Navigation/style.css';
 
 .task__list {
     list-style: none;
@@ -17,7 +18,7 @@
 .task__list-item:hover .item-menu{
     display: block;
 }
-.item-head {
+.item-card__head {
     display: flex;
     justify-content: space-between;
 }
