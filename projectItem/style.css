@@ -2,6 +2,7 @@
 
 .project__list {
     list-style: none;
+    padding: 18px;
 }
 
 .project__list-item {

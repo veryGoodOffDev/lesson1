@@ -3,6 +3,7 @@
 
 .task__list {
     list-style: none;
+    padding: 18px;
 }
 
 .task__list-item {
