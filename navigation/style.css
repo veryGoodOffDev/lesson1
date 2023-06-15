@@ -98,7 +98,7 @@ html, body {
     transition: .2s ease;
 }
 
-.user__button {
+.user-button {
     padding: 10px 16px;
     background-color: transparent;
     border: none;
@@ -109,12 +109,12 @@ html, body {
     border: 1px solid transparent
 }
 
-.user__button:hover {
+.user-button:hover {
     border: 1px solid var(--font-color-secondary);
     cursor: pointer;
 }
 
-.user__img {
+.user-img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
