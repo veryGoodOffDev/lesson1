@@ -107,7 +107,7 @@ html, body {
     cursor: pointer;
 }
 
-.item-card__user-img {
+.user__img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
